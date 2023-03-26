@@ -1,0 +1,19 @@
+algoritmo "Salario Funcionario"
+
+var
+   dias, horas : inteiro
+   salario, Mes : real
+
+inicio
+
+   escreva("Digite o número de dias trabalhados no mês: ")
+   leia(dias)
+
+   horas <- dias * 8 //8 horas trabalhadas por dia
+
+   Hora <- 25.0 //valor da hora trabalhada
+   Mes <- salario * horas
+
+   escreva("O salário do funcionário é de R$", Mes)
+
+fimalgoritmo
