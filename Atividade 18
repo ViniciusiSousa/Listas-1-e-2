@@ -1,0 +1,19 @@
+algoritmo "Verifica se pode votar"
+
+var
+  nascimento, idade,atual: inteiro
+
+escreva("Digite o ano de nascimento: ")
+leia(nascimento)
+
+ano_atual <- atual()  // Obtém o ano atual
+
+idade <- atual - nascimento
+
+se idade >= 16 entao
+  escreva("Você tem ", idade, " anos e pode votar.")
+senao
+  escreva("Você tem ", idade, " anos e não pode votar ainda.")
+fimse
+
+fimalgoritmo
