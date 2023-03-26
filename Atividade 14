@@ -2,7 +2,7 @@ algoritmo "Locadora de Carros"
 
 var
     km, dias: inteiro
-    preco_total: real
+    precototal: real
 
 escreva("Quantos Km foram percorridos com o carro alugado?")
 leia(km)
