@@ -1,0 +1,16 @@
+Algoritmo "Cálculo de tinta para pintura de parede"
+Var
+   largura, altura, area, litrosTinta: Real
+Inicio
+   Escreva("Digite a largura da parede em metros: ")
+   Leia(largura)
+
+   Escreva("Digite a altura da parede em metros: ")
+   Leia(altura)
+
+   area <- largura * altura
+   litrosTinta <- area / 2
+
+   Escreva("A área a ser pintada é de ", area, "m²")
+   Escreva("Será necessário ", litrosTinta, " litro(s) de tinta para pintar a parede")
+Fim_Algoritmo
