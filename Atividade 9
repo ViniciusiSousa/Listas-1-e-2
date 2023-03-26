@@ -1,0 +1,11 @@
+Algoritmo "Conversão de moeda"
+Var
+   Reais, Dolares: Real
+Inicio
+   Escreva("Digite o valor em reais na sua carteira: ")
+   Leia(Reais)
+   
+   Dolares <- Reais / 3.45
+   
+   Escreva("Com R$", Reais, "Você pode comprar US$", Dolares)
+Fim_Algoritmo
