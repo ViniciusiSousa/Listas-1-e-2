@@ -1,0 +1,4 @@
+algoritmo "Olá, Mundo!"
+inicio
+   escreva("Olá, Mundo!")
+fim_algoritmo
