@@ -1,0 +1,17 @@
+algoritmo "Locadora de Carros"
+
+var
+    km, dias: inteiro
+    preco_total: real
+
+escreva("Quantos Km foram percorridos com o carro alugado?")
+leia(km)
+
+escreva("Quantos dias o carro foi alugado?")
+leia(dias)
+
+total <- (dias* 90) + (km * 0.20)
+
+escreva("O preço total do aluguel é de R$",total)
+
+fimalgoritmo
