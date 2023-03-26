@@ -1,0 +1,19 @@
+algoritmo "Tempo de vida"
+var
+    cigarros, anos, total,minutos, dias: inteiro
+    
+inicio
+    escreva("Quantos cigarros você fuma por dia? ")
+    leia(dia)
+    escreva("Por quantos anos você já fuma? ")
+    leia(anos)
+
+    cigarros <- dias * 365 * anos
+
+    minutos <- cigarros * 10
+
+    dias <- minutos / (24 * 60)
+
+    escreva("Você está perdeu ",dias, "dias de vida fumando.")
+
+fimalgoritmo
