@@ -1,0 +1,13 @@
+algoritmo "Soma de dois números inteiros"
+
+var
+   num1, num2, soma: inteiro
+
+inicio
+   escreva("Digite um valor: ")
+   leia(num1)
+   escreva("Digite outro valor: ")
+   leia(num2)
+   soma <- num1 + num2
+   escreva("A soma entre " + num1 + " e " + num2 + " é igual a " + soma + ".")
+fim_algoritmo
