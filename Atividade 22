@@ -1,0 +1,23 @@
+algoritmo "Alistamento Militar"
+
+var
+  nascimento, idade, atual, alistamento: inteiro
+
+escreva("Digite o ano de nascimento do rapaz: ")
+leia(nascimento)
+
+ano_atual <- 2023  
+
+idade <- atual - nascimento
+
+se idade < 18 entao
+  alistamento <- nascimento + 18
+  escreva("O rapaz ainda não precisa se alistar. Faltam ", alistamento - ano_atual, " anos para o alistamento.")
+senao se idade = 18 entao
+  escreva("O rapaz deve se alistar este ano.")
+senao
+  alistamento <- ano_nascimento + 18
+  escreva("O rapaz já passou do prazo de alistamento. Já se passaram ", atual - alistamento, " anos do alistamento.")
+fimse
+
+fimalgoritmo
