@@ -1,0 +1,26 @@
+algoritmo "Média do aluno"
+
+var
+  nome: caractere
+  nota1, nota2, media: real
+
+escreva("Digite o nome do aluno: ")
+leia(nome)
+
+escreva("Digite a primeira nota: ")
+leia(nota1)
+
+escreva("Digite a segunda nota: ")
+leia(nota2)
+
+media <- (nota1 + nota2) / 2
+
+escreva("A média do aluno ", nome, " é ", media, ".")
+
+se media >= 7.0 entao
+  escreva("O aluno teve um bom aproveitamento.")
+senao
+  escreva("O aluno não teve um bom aproveitamento.")
+fimse
+
+fimalgoritmo
