@@ -1,0 +1,16 @@
+algoritmo "Conversão de distância"
+
+var
+   distancia_m: real
+
+inicio
+   escreva("Digite uma distância em metros: ")
+   leia(distancia_m)
+   escreva("A distância de " + distancia_m + "m corresponde a:")
+   escreva(distancia_m / 1000 + "Km")
+   escreva(distancia_m / 100 + "Hm")
+   escreva(distancia_m / 10 + "Dam")
+   escreva(distancia_m * 10 + "dm")
+   escreva(distancia_m * 100 + "cm")
+   escreva(distancia_m * 1000 + "mm")
+fim_algoritmo
