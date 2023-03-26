@@ -1,0 +1,13 @@
+Algoritmo Aumento Salário
+
+Var
+   salario, novo_salario: Real
+
+Inicio
+   escreva("Digite o salário atual do funcionário: ")
+   leia(salario)
+   
+   novo_salario <- salario * 1.15 // calcula o novo salário com 15% de aumento
+   
+   escreva("O novo salário do funcionário é R$", novo_salario)
+FimAlgoritmo
