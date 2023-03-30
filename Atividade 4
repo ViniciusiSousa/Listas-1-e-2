@@ -1,7 +1,7 @@
 algoritmo "Soma de dois números inteiros"
 
 var
-   num1, num2, soma: inteiro
+   inteiro: num1, num2, soma
 
 inicio
    escreva("Digite um valor: ")
