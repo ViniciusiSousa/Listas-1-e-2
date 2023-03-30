@@ -5,7 +5,7 @@ inicio
    escreva("Digite o valor em reais na sua carteira: ")
    leia(Reais)
    
-   dolares <- reais / 3.45
+   dolares = reais / 3.45
    
    escreva("Com R$", Reais, "Você pode comprar US$", Dolares)
 Fim_Algoritmo
