@@ -1,7 +1,7 @@
 algoritmo "Dobro e terça parte de um número"
 
 var
-   num, dobro, terca: real
+  real:  num, dobro, terca
 
 inicio
    escreva("Digite um número: ")
