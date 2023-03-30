@@ -1,7 +1,7 @@
 algoritmo "Conversão de distância"
 
 var
-   distancia: real
+   real : distancia
 
 inicio
    escreva("Digite uma distância em metros: ")
