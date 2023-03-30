@@ -1,7 +1,7 @@
 algoritmo "Mensagem de boas-vindas"
 
 var
-   nome: caractere
+   caractere : nome
 
 inicio
    escreva("Qual é o seu nome? ")
