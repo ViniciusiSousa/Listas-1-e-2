@@ -12,7 +12,7 @@ inicio
    escreva("Digite o valor de C: ")
    leia(c)
 
-   delta <- b*b - 4*a*c
+   delta = b*b - 4*a*c
 
    escreva("O valor de Delta é: ", delta)
 fim_algoritmo
