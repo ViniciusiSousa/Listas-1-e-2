@@ -8,8 +8,8 @@ inicio
    escreva("Digite a altura da parede em metros: ")
    leia(altura)
 
-   area <- largura * altura
-   litrosTinta <- area / 2
+   area = largura * altura
+   litrosTinta = area / 2
 
    escreva("A área a ser pintada é de ", area, "m²")
    escreva("Será necessário ", litrosTinta, " litro(s) de tinta para pintar a parede")
