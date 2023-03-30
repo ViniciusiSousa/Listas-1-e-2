@@ -1,6 +1,6 @@
 algoritmo "Delta"
 var
-   a, b, c, delta: real
+   real : a, b, c, delta
 
 inicio
    escreva("Digite o valor de A: ")
