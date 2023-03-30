@@ -1,6 +1,6 @@
 Algoritmo "Conversão de moeda"
 Var
-   Reais, Dolares: Real
+   real : Reais, Dolares
 Inicio
    Escreva("Digite o valor em reais na sua carteira: ")
    Leia(Reais)
