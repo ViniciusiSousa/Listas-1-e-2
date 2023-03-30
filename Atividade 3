@@ -1,9 +1,8 @@
 algoritmo "Dados do Funcionário"
 
 var
-   nome: caractere
-   salario: real
-
+   caractere : nome 
+   real : salario
 inicio
    escreva("Nome do Funcionário: ")
    leia(nome)
