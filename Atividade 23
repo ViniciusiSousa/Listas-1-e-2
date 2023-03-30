@@ -13,10 +13,10 @@ leia(sexo)
 escreva("Digite o valor total das compras: ")
 leia(compras)
 
-se sexo = "M" entao
+se sexo <= "M" entao
   valor_com_desconto = valor_compras - (valor_compras * 0.13)
   escreva("Olá, ", nome, "! exclusiva para o Dia da Mulher, você ganhou um desconto de 13% nas compras. O valor total com desconto é R$", desconto)
-senao se sexo = "H" entao
+senao se sexo <= "H" entao
   desconto = compras - (compras * 0.05)
   escreva("Olá, ", nome, "! Você ganhou um desconto de 5% nas compras. O valor total com desconto é R$", desconto)
 senao
