@@ -1,7 +1,7 @@
 algoritmo "Verificar triângulo"
 
 var
-  a, b, c: real
+  real : a, b, c
 
 escreva("Digite o tamanho do segmento de reta A: ")
 leia(a)
