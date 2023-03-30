@@ -1,7 +1,7 @@
 algoritmo "Par ou Ímpar"
 
 var
-  num: inteiro
+  inteiro : num
 
 escreva("Digite um número inteiro: ")
 leia(num)
