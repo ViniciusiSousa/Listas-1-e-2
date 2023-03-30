@@ -1,7 +1,7 @@
 algoritmo "Média de notas"
 
 var
-   nota1, nota2, media: real
+   real: nota1, nota2, media
 
 inicio
    escreva("Nota 1: ")
