@@ -1,15 +1,15 @@
 algoritmo "Preço da passagem"
 
 var
-  distancia, preco: real
+  real : distancia, preco
 
 escreva("Digite a distância que você deseja percorrer em km: ")
 leia(distancia)
 
 se distancia <= 200 entao
-  preco <- distancia * 0.5
+  preco = distancia * 0.5
 senao
-  preco <- distancia * 0.45
+  preco = distancia * 0.45
 fimse
 
 escreva("O preço da passagem é R$", preco)
