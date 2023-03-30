@@ -1,7 +1,7 @@
 algoritmo "Antecessor e sucessor de um número"
 
 var
-   num, antecessor, sucessor: inteiro
+   inteiro: num, antecessor, sucessor
 
 inicio
    escreva("Digite um número: ")
