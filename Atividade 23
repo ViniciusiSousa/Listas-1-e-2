@@ -1,9 +1,8 @@
 algoritmo "Desconto mulher ou homem"
 
 var
-  nome: caractere
-  sexo: caractere
-  compras, desconto: real
+  caracter nome , sexo
+  real : compras, desconto
 
 escreva("Digite o nome do cliente: ")
 leia(nome)
@@ -15,10 +14,10 @@ escreva("Digite o valor total das compras: ")
 leia(compras)
 
 se sexo = "M" entao
-  valor_com_desconto <- valor_compras - (valor_compras * 0.13)
+  valor_com_desconto = valor_compras - (valor_compras * 0.13)
   escreva("Olá, ", nome, "! exclusiva para o Dia da Mulher, você ganhou um desconto de 13% nas compras. O valor total com desconto é R$", desconto)
 senao se sexo = "H" entao
-  desconto <- compras - (compras * 0.05)
+  desconto = compras - (compras * 0.05)
   escreva("Olá, ", nome, "! Você ganhou um desconto de 5% nas compras. O valor total com desconto é R$", desconto)
 senao
   escreva("Sexo inválido!")
