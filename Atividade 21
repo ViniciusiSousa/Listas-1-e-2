@@ -1,7 +1,7 @@
 algoritmo "Ano Bissexto"
 
 var
-  ano: inteiro
+  inteiro : ano
 
 escreva("Digite um ano: ")
 leia(ano)
