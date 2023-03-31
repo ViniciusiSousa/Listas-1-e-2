@@ -1,6 +1,6 @@
 algoritmo "Dados do Funcionário"
 
-var
+cadeia
    caractere : nome 
    real : salario
 inicio
