@@ -1,6 +1,6 @@
 algoritmo "Mensagem de boas-vindas"
 
-var
+cadeia
    caractere : nome
 
 inicio
