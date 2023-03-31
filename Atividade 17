@@ -1,12 +1,12 @@
 Algoritmo "Multa de trânsito"
 var
-   velocidade, limite, multa: real
+   real: velocidade, limite, multa
 inicio
-   limite <- 80
-   multa <- 5
+   limite = 80
+   multa = 5
    escreva("Digite a velocidade do carro em Km/h: ")
    leia(velocidade)
-   se velocidade > limite entao
+   se velocidade => limite entao
       escreva("Você foi multado! O limite de velocidade é ", limite_velocidade, " Km/h.")
       escreva("O valor da multa é R$ ", (velocidade - limite) * multa)
    senao
