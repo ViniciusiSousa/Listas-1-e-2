@@ -1,12 +1,12 @@
 algoritmo "Preço Promocional"
 var
-   preco, preco_promocional: real
+   real: preco, preco_promocional
 
 inicio
    escreva("Digite o preço do produto: ")
    leia(preco)
 
-   preco_promocional <- preco - (preco * 0.05)
+   preco_promocional = preco - (preco * 0.05)
 
    escreva("O preço promocional do produto é R$", preco_promocional)
 fimalgoritmo
